@@ -806,6 +806,9 @@ h3.profile-title {
   #skills .card {
     display: flex;
   }
+  #certifications .card {
+    display: flex;
+  }
 }
 
 @media (max-width: 383px) {
