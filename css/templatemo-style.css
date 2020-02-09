@@ -663,3 +663,153 @@ h3.profile-title {
 #footer p.copyright-text a:hover {
   color: #6cc0f7;
 }
+
+/*---------------------------------------------------------
+ 6. Cards
+-------------------------------------------------------- */
+
+/*------ projects ------ */
+.projects-holder {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 40px;
+}
+.projects-holder .col-md-4,
+.projects-holder .col-md-4 {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+
+#article .card-head {
+  height: 100%;
+}
+
+#article .card-title {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.card-head {
+  background-color: rgba(13, 36, 85, 0.6);
+  height: 100px;
+  padding-right: 20px;
+}
+
+.card-footer {
+  padding: 10px;
+  padding-left: 3%;
+  background-color: rgba(13, 36, 85, 0.07);
+}
+
+.tick {
+  width: 40px;
+  height: 40px;
+  margin: 12px;
+  order: 3;
+}
+
+.flag {
+  width: 24px;
+}
+
+.card-text {
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.courses-udemy {
+  column-count: 1;
+}
+
+.courses {
+  column-count: 1;
+}
+
+@media (min-width: 1300px) {
+  .courses-udemy {
+    column-count: 2;
+  }
+  .courses {
+    column-count: 4;
+  }
+}
+
+.card-img {
+  width: 100px;
+  float: left;
+  padding: 10px;
+}
+
+.tsf-img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  padding-top: 40px;
+  padding-left: 12%;
+  font-size: 150%;
+  color: white;
+}
+
+.card-title-left {
+  /* float:left; */
+  margin: 0;
+  position: relative;
+  background-color: rgba(13, 36, 85, 0.6);
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  margin-right: 10px;
+}
+
+.card-title-left p {
+  height: 100%;
+  vertical-align: middle;
+}
+
+@media (max-width: 543px) {
+  .card-title {
+    padding-top: 15px;
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 680px) {
+  .card-title-left {
+    float: none;
+    line-height: 64px;
+    height: 100%;
+    width: auto;
+    margin: 0;
+  }
+  .tick {
+    float: right;
+  }
+}
+
+@media (min-width: 680px) {
+  .card-title-left {
+    height: auto;
+    width: 200px;
+    flex: 0 0 200px;
+    padding: 20px;
+  }
+
+  #skills .card {
+    display: flex;
+  }
+}
+
+@media (max-width: 383px) {
+  .card-title {
+    font-size: 90%;
+  }
+}
